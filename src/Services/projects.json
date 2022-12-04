@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Batik Pesisir Ariticles",
+        "image": "batik-pesisir.png",
+        "link": "https://yaudalah.pythonanywhere.com/",
+        "description": "A website that talking about Batik Pesisir around java island, build using Django."
+    },
+    {
+        "title": "Second Hand E-commerce",
+        "image": "second-hand.png",
+        "link": "https://second-hand-two.vercel.app/",
+        "description": "An C-to-C e-commerce website that selling an auction items, build using Node.js & React."
+    }
+]

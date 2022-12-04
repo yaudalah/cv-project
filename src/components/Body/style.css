@@ -1,0 +1,36 @@
+.body__container {
+    container-type: inline-size;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: .5rem;
+}
+
+.body__content {
+    display: block;
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.body__content>h2 {
+    width: 50ch;
+}
+
+.body__content-skill {
+    border: black 5px dashed;
+    display: grid;
+    grid-column: 2;
+    grid-column-gap: 4;
+    gap: 10;
+}
+
+.layout {
+    margin-top: 2em;
+}
+
+@container (min-width: 900px) {
+    .layout {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 1rem;
+    }
+}
